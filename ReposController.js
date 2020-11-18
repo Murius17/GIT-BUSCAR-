@@ -1,5 +1,7 @@
 class ReposController {
-    constructor() {throw new Error("Você não pode fazer isso!") }
+    constructor() {throw new Error("Não da para fazer isso!") }
+    
+
     
     static getRepos(url) {
         let reposDiv = document.querySelector("#userRepos");

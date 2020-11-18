@@ -9,7 +9,7 @@ class User {
         this._following = following;
     }
 
-    //programação defensiva: retorna uma cópia do User
+  
     returnUser() {
         return {
             avatar: this._avatar,
